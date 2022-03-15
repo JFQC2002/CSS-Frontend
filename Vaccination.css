@@ -1,0 +1,318 @@
+*{ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+body{
+    margin: 0px;
+}
+/*BARRA*/
+
+.nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: block;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 0px;
+    z-index: 2;
+  
+}
+    /*div texto*/
+.divLinks{
+    position: absolute;
+    right: 5%;
+    margin-top: 2%;
+    box-sizing: border-box;
+
+    
+}
+    /*Logo Vaccination Barra*/
+.NavLogo{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 2%;
+    color:  rgb(55, 87, 213);
+    font-size: 20px;
+    font-weight:700;
+    padding-left: 10%;
+   
+}
+    /*Texto barra*/
+.Link{
+    text-decoration: none;
+    color: #6e7c94;
+    text-align: center;
+    font-weight:700;
+    padding: 10px
+
+}
+
+/*SECCION NURSE1*/
+.Nseccion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10%;
+}
+
+/*Imagen*/
+.img1{
+    background: linear-gradient(to bottom right, #0a97e6, #3861db);
+    box-sizing: border-box; 
+    width: 100%;
+    z-index: 1;
+}
+/*Boton*/
+.blueButton{
+    background-color: rgb(55, 87, 213);
+    align-items: center;
+    border-radius: 2px ;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(55, 87, 213, 0.3);
+}
+
+/*ROMBO*/
+#rombo{
+    position: static;
+    width: 0;
+    height: 0;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-top: 80px solid rgba(244,246,251,255);
+    margin-top: 100px;
+    margin-left: 5%;
+}
+/*Texto*/
+
+#Titulo1{
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #1f3e72;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.Titulo2{
+    
+    margin-left: 10%;
+    color: #1f3e72;
+    font-weight: 900;
+    font-size:30px;
+    margin-top: 0px;
+}
+.sub1{
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #6e7c94;
+
+}
+
+/*Iconos*/
+.divIcono{
+    margin-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icono{
+    margin: 0px;
+    display: inline-flex;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color:  rgb(255, 208, 18, 0.05);;
+    box-shadow:  0px 4px 4px rgb(255, 208, 18, 0.3);
+}
+.Picono{
+    color: #1e3d71;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    margin: 0px;
+    padding-left: 10px;
+}
+/*Schedule*/
+.ireloj{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+    background-color: rgb(55, 87, 213, 0.1);
+    border-radius: 2px;
+    box-shadow:  0px 4px 4px rgb(52 84 210 / 50%);
+    
+}
+
+.Schedule{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 2px;
+    box-shadow:  4px 4px 4px rgb(31, 62, 114, 0.3);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 2;
+}
+.itemS{
+    align-items: center;
+    display: inline-flex;
+    color: #6e7c94;
+}
+.input{
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    border:rgb(255, 255, 255);
+    width: 110px;
+    color: rgb(30, 61, 113);
+    font-weight: bold;
+}
+
+/*Logos Vacunas*/
+.Svacunas{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    z-index: 1;
+
+}
+
+.imgV{
+    justify-self: center;
+    width: 50%;
+}
+
+/*SECCION 2*/
+.RecomendacionesGrid{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.RECOMENDACIONES{
+    padding: 10px;
+    border-radius: 2px;
+    transition: 0.1s 0.1s;
+   
+}
+.RECOMENDACIONES:hover /*sombra*/
+{
+    box-shadow: 0px 15px 9px rgb(55, 87, 213, 0.1);
+}
+
+.Iconos3{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    background-color: #3757d50d;
+    border-radius: 2px;
+    box-shadow:  0px 4px 4px rgb(52 84 210 / 50%);
+}
+
+/*SECCION 3*/
+#Summary{
+    margin-left: 10%;
+    color: #1f3e72;
+    font-weight: bold;
+}
+.details{
+    padding: 20px;
+}
+
+/*SECCION 4*/
+#EmergencyGrid{
+    align-items: center;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+}
+.GRIDe{
+    
+    padding-top: 10px;
+    border-radius: 2px;
+    align-items: center;
+}
+.GRIDe:hover{
+    box-shadow: 0px 15px 9px rgb(55, 87, 213, 0.1);
+
+}
+.Iconos4{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    background-color: #3757d50d;
+    border-radius: 2px;
+    box-shadow:  0px 4px 4px rgb(52 84 210 / 50%);
+}
+.ButtonG{
+    background-color: #eef3ff;
+    align-items: center;
+    border-radius: 2px ;
+    font-weight: bold;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    color:  rgb(55, 87, 213);
+   
+}
+.ButtonG:hover{
+    background-color: rgb(55, 87, 213);;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(55, 87, 213, 0.3);
+}
+
+/*FOOTER*/
+.gridFooter{
+    background-color: #eef3ff ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2%
+}
+#FVaccination{
+    background-size: 180px;
+}
+.FLogo{
+   
+    margin-top: 2%;
+    margin-bottom: 20px;
+    color:  rgb(55, 87, 213);
+    font-size: 20px;
+    font-weight:700;
+    padding-left: 10%;
+}
+.FTitulo{
+    margin-top: 2%;
+
+    margin-left: 10%;
+    color: #1f3e72;
+    font-weight:600;
+    font-size: 18px;
+}
+
+.Fsub{
+    display: block;
+    margin-bottom: 20px;
+}
